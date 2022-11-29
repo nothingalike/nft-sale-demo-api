@@ -1,8 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NftSaleDemo.Api", "NftSaleDemo.Api\NftSaleDemo.Api.csproj", "{7AE51653-86EF-4AB2-B26D-193A98F58C8E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardanoSharp.Wallet", "..\..\CardanoSharp\cardanosharp-wallet\CardanoSharp.Wallet\CardanoSharp.Wallet.csproj", "{97F4B7A3-0F0B-4004-83B7-DA4F33827EE3}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NftSaleDemo.Api", "NftSaleDemo.Api\NftSaleDemo.Api.csproj", "{7AE51653-86EF-4AB2-B26D-193A98F58C8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +15,11 @@ Global
 		{7AE51653-86EF-4AB2-B26D-193A98F58C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AE51653-86EF-4AB2-B26D-193A98F58C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AE51653-86EF-4AB2-B26D-193A98F58C8E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97F4B7A3-0F0B-4004-83B7-DA4F33827EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97F4B7A3-0F0B-4004-83B7-DA4F33827EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97F4B7A3-0F0B-4004-83B7-DA4F33827EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97F4B7A3-0F0B-4004-83B7-DA4F33827EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4A4AE5B-56D8-47C1-A721-36D1D251D67E}
 	EndGlobalSection
 EndGlobal
