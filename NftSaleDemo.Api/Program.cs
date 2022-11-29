@@ -6,7 +6,7 @@ using NftSaleDemo.Api.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddKoios("https://testnet.koios.rest/api/v0");
+builder.Services.AddKoios("https://preprod.koios.rest/api/v0");
 builder.Services.AddTransient<ITransactionService, TransactionService>();
 builder.Services.AddTransient<INftRepository, NftRepository>();
 builder.Services.AddTransient<INftSaleRepository, NftSaleRepository>();
